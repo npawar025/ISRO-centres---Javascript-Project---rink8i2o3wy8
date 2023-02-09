@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISRO Center</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="page-header">
+        <div class="page-logo">
+          <img src="./images/Indian_Space_Research_Organisation_Logo.svg.png" alt="Logo" />
+        </div>
+        <div class="page-title">
+          <span>I</span>ndian <span>S</span>pace <span>R</span>esearch
+          <span>O</span>rganization
+        </div>
+      </div>
+    </header>
+    <div class="main-content">
+      <div class="main-content-title">
+        Search for ISRO centres based on place, state and name
+      </div>
+      <div class="search-filter-div">
+        <div class="search">
+          <input
+            type="text"
+            id="search-bar"
+            class="search-content"
+            placeholder="Type here......"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="filter highlighted-filter" id="city">
+          <span class="filter-span">CITY</span>
+        </div>
+        <div class="filter" id="state">
+          <span class="filter-span">STATE</span>
+        </div>
+        <div class="filter" id="centre">
+          <span class="filter-span">CENTER</span>
+        </div>
+      </div>
+    </div>
+    <div class="results">
+      <!-- <div class="result">
+            <div class="result-centre result-title">CENTER</div>
+            <div class="result-city result-title">CITY</div>
+            <div class="result-state result-title">STATE</div>
+            <div class="result-centre-value">Western RRSC</div>
+            <div class="result-city-value">Jodhpur</div>
+            <div class="result-state-value">Rajasthan</div>
+        </div> -->
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>
 
